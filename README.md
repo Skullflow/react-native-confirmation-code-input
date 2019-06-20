@@ -83,6 +83,7 @@ Prop       | Type    | Default    | Description
 `compareWithCode`   | string   |              | code to compare. if null, onFulfill callback return inputted code to check later
 `inputPosition`     | string   | `center`     | position of code input in its container: `left`, `right`, `center`, `full-width`
 `size`              | number   | 40           | size of input cells
+`keyboardType`      | string   | `number-pad` | React native keyboard type
 `space`             | number   | 8            | space between 2 cells
 `className`         | string   | `border-box` | Some built-in classname: `border-box`, `border-circle`, `border-b`, `border-b-t`, `border-l-r`
 `cellBorderWidth`   | number   | 1.0          | width of cell borders
